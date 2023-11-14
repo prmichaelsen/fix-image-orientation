@@ -1,5 +1,5 @@
 {
-  "name": "@mish-tv/fix-image-orientation",
+  "name": "@prmichaelsen/fix-image-orientation",
   "version": "0.0.1",
   "description": "When this function receives a Blob of an image file as an argument, it returns the dataURL with orientation applied and exif removed.",
   "main": "lib/cjs/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mish-tv/fix-image-orientation.git"
+    "url": "git+https://github.com/prmicahelsen/fix-image-orientation.git"
   },
   "files": [
     "lib"
@@ -30,7 +30,7 @@
   "author": "Koji Murata",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mish-tv/fix-image-orientation/issues"
+    "url": "https://github.com/prmichaelsen/fix-image-orientation/issues"
   },
   "homepage": "https://github.com/mish-tv/fix-image-orientation#readme",
   "devDependencies": {
