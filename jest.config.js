@@ -6,6 +6,24 @@ module.exports = {
   preset: "jest-puppeteer",
   resetMocks: true,
   restoreMocks: true,
-  testMatch: ["**/src/**/?(*.)+(spec|test).[tj]s?(x)"],
-  transform: { "^.+\\.(t|j)sx?$": "@swc/jest" },
+  testMatch: [
+    "**/**.spec.ts"
+  ],
+  transform: {
+    ".(js|ts)": "ts-jest"
+  },
+  transformIgnorePatterns: [
+    "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx|json)$",
+    "package.json"
+  ],
+  coverageReporters: [
+    "cobertura",
+    "html",
+    "text"
+  ],
+  globals: {
+    "ts-jest": {
+      tsconfig: "tsconfig.test.json"
+    }
+  }
 };
