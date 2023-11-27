@@ -1,6 +1,6 @@
 {
   "name": "@prmichaelsen/fix-image-orientation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When this function receives a Blob of an image file as an argument, it returns the dataURL with orientation applied and exif removed.",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
