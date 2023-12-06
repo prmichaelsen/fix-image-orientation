@@ -7,7 +7,7 @@
 </div>
 
 <h4 align="center">
-When this function receives a Blob of an image file as an argument, it returns the dataURL with orientation applied and exif removed.
+  Accepts a Blob of an image file as an argument and returns the dataURL with orientation applied and exif removed.
 </h4>
 
 ## Features

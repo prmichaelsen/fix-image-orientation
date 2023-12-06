@@ -1,9 +1,9 @@
 {
   "name": "@prmichaelsen/fix-image-orientation",
-  "version": "1.0.1",
-  "description": "When this function receives a Blob of an image file as an argument, it returns the dataURL with orientation applied and exif removed.",
+  "version": "1.0.3",
+  "description": "Accepts a Blob of an image file as an argument and returns the dataURL with orientation applied and exif removed.",
   "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
+  "types": "lib/cjs/index.d.ts",
   "keywords": [
     "image",
     "exif",
@@ -24,9 +24,6 @@
     "type": "git",
     "url": "git+https://github.com/prmicahelsen/fix-image-orientation.git"
   },
-  "files": [
-    "lib"
-  ],
   "author": "Koji Murata",
   "license": "MIT",
   "bugs": {
